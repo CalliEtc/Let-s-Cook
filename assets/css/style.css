@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 /* p,h1,h2,h3,h4,h5,h6 {
@@ -13,29 +13,26 @@ nav {
     background: rgb(84, 41, 19);
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	align-content: space-around;
-    padding: 16px;
+    padding: 1rem;
 }
 
 .upLeft {
     display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	align-content: space-around;
+	
 }
 
 .upRight {
     display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
-	align-content: space-around;
+	
 }
 
 nav a {
@@ -90,6 +87,10 @@ input {
     text-align: end;
 }
 
+.EnSavoir a {
+    color: green;
+}
+
 .recettesList {
     display: flex;
 	flex-direction: row;
@@ -115,6 +116,21 @@ input {
 }
 
 .imgCooking {
-    height: 200px;
+    min-height: 200px;
     background-image: url("../images/cooking.svg") ;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.logoMedia {
+    color: white;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoMedia a {
+    color: white;
+    text-decoration: none;
 }
