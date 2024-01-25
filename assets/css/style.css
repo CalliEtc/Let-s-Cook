@@ -1,19 +1,23 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
-
+/* p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0%;
+    
+} */
 
 nav {
-    background: rgb(59, 41, 29);
+    background: rgb(84, 41, 19);
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
 	align-content: space-around;
-    padding: 20px;
+    padding: 16px;
 }
 
 .upLeft {
@@ -42,9 +46,75 @@ nav a {
 
 input {
     border-radius: 20px;
-    padding: 6px;
+    padding: 8px;
+}
+
+.mainPage {
+    margin: 50px;
 }
 
 .recettes img {
     width: 300px;
+    border-radius: 5% 5% 0 0 ;
+    
+}
+
+.mainPage h1 {
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: relative;
+}
+.menu {
+    padding: 16px;
+    display: flex;
+	flex-direction: column;
+    max-width: 350px;
+    gap: 16px;
+    box-shadow:
+     0px 1px 3.6px rgba(0, 0, 0, 0.044),
+     0px 2.8px 10px rgba(0, 0, 0, 0.067),
+     0px 6.6px 24.1px rgba(0, 0, 0, 0.102),
+     0px 22px 80px rgba(0, 0, 0, 0.23);
+    
+}
+
+.difficultStar {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
+.EnSavoir{
+    text-align: end;
+}
+
+.recettesList {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+    max-width: 1200px;
+    margin: auto;
+    row-gap:16px ;
+}
+
+.footerFlex {
+    background: rgb(84, 41, 19);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-evenly;
+}
+
+.footerFlex p,h3, li {
+    color: white;
+}
+
+.imgCooking {
+    height: 200px;
+    background-image: url("../images/cooking.svg") ;
 }
