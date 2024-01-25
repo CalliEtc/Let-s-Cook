@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+nav {
+    background: rgb(59, 41, 29);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+    padding: 20px;
+}
+
+.upLeft {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+.upRight {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+input {
+    border-radius: 20px;
+    padding: 6px;
+}
+
+.recettes img {
+    width: 300px;
+}
