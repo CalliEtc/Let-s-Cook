@@ -20,6 +20,7 @@ nav {
     padding: 1rem;
 }
 
+
 .upLeft {
     display: flex;
 	flex-direction: row;
@@ -75,13 +76,26 @@ input {
     
 }
 
+.recettesList h2 {
+    color: green;
+}
+
+
 .difficultStar {
+    color: rgb(216, 216, 24);
     display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
 	align-content: stretch;
 }
+
+.difficult {
+    display: flex;
+    gap: 10px;
+}
+
+
 
 .EnSavoir{
     text-align: end;
@@ -109,6 +123,7 @@ input {
 	justify-content: space-around;
 	align-items: center;
 	align-content: space-evenly;
+    padding: auto;
 }
 
 .footerFlex p,h3, li {
@@ -133,4 +148,27 @@ input {
 .logoMedia a {
     color: white;
     text-decoration: none;
+}
+
+.navigationFooter li {
+    text-decoration-line: underline;
+}
+.socialMedia p {
+    font-weight: bold;
+}
+
+
+.newsLetter {
+    max-width: 400px;
+    color: white;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.newsAbonne {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
