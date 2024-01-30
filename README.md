@@ -1,0 +1,1 @@
+Le projet Cuisine est un projet de création de site web.
