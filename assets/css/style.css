@@ -16,6 +16,14 @@ body {
     color:white;
 }
 
+.pa_1em {
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
 nav {
     display: flex;
 	flex-direction: row;
@@ -23,12 +31,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	align-content: space-around;
-    padding: 1rem;
     margin: auto;
-}
-
-a {
-    text-decoration: none;
 }
 
 .upLeft {
@@ -57,7 +60,7 @@ a {
 
 input {
     border-radius: 20px;
-    padding: 8px;
+    padding: 1em;
 }
 
 
@@ -157,7 +160,6 @@ input {
 	justify-content: space-around;
 	align-items: center;
 	align-content: space-evenly;
-    padding: 1em;
 }
 
 
@@ -237,8 +239,10 @@ input {
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
+	align-content: space-around;
+    gap: 5em;
     padding: 1em;
     
 }
